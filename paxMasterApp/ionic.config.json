@@ -1,0 +1,7 @@
+{
+  "name": "paxMasterApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
