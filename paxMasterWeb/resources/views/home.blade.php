@@ -15,6 +15,9 @@
                     @endif
 
                     {{ __('You are logged in! Admin is at http://localhost:8000/admin if using the Laravel development server.') }}
+
+
+
                 </div>
             </div>
         </div>
