@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\Message;
+
 class HomeController extends Controller
 {
     /**
@@ -23,6 +25,9 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+
+        $message = Message::find(1);
+
+        return view('home')->with('message', $message);
     }
 }

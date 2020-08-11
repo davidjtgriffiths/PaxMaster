@@ -34,7 +34,17 @@ import '@ionic/react/css/display.css';
 /* Theme variables */
 import './theme/variables.css';
 
+// My Stuff
+import axios from 'axios';
+import { HTTP } from '@ionic-native/http/ngx';
+
+
+
 const App: React.FC = () => (
+
+
+
+
   <IonApp>
     <IonReactRouter>
       <IonTabs>
